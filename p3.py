@@ -15,8 +15,8 @@ while(start < 1000000):
 			cur_number = (3*cur_number)+1			
 			cur_steps = cur_steps+1
 	if cur_steps > longest_steps:
-		longest_number = cur_number
+		longest_number = start
 		longest_steps = cur_steps
-	print("loop done")
+	
 
 print(longest_number)
