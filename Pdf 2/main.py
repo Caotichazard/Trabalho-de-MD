@@ -5,7 +5,7 @@ def achaPrimos():
     eh_primo = 1
     total = 0
     while( primo_atual < 2000000):
-       
+        print(primo_atual)
         eh_primo = 1
         primo_atual = primo_atual + 2
         for n in primos:
