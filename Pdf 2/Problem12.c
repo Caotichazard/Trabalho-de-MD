@@ -11,13 +11,13 @@ int main(){
     int num_atual=0;
     while (divisores <500)
     {   
-        printf("Pos atual: %d\n",pos_atual);
+        
         num_atual = achaNumeroTriangular(pos_atual,num_atual);
         divisores = achaQtdDivisores(num_atual);
-        printf("Divisores: %d\n",divisores);
+        
         pos_atual++;
     }
-    printf("\n resultado: %d..%d\n",num_atual,pos_atual);
+    printf("\n resultado: %d\n",num_atual);
     
     
 }
